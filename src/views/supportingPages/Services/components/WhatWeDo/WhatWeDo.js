@@ -65,7 +65,7 @@ const WhatWeDo = () => {
       subtitle: 'Ruben Porcayo Espinoza',
       icon: <FacebookIcon style={{ fontSize: 48 }} />,
       color: colors.teal,
-      link: 'https://www.facebook.com/RubenPorcayoEspinoza',
+      link: 'https://www.facebook.com/ruben.porcayo.980',
     },
     {
       title: 'Email',
