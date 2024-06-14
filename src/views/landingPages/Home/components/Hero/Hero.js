@@ -27,7 +27,7 @@ const Hero = () => {
                 fontWeight: 700,
               }}
             >
-              Ruben Porcayo Espinoza 
+              Ruben Porcayo
               <br />
               <Typography
                 color={'primary'}
