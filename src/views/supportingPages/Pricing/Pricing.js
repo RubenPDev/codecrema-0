@@ -2,7 +2,7 @@ import React from 'react';
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Container from 'common/Container';
-import { Faq, PricingCards } from './components';
+import {  PricingCards } from './components';
 
 const Pricing = () => {
   const theme = useTheme();
@@ -14,6 +14,8 @@ const Pricing = () => {
         </Container>
         <Box
           component={'svg'}
+          to="/page-pricing"
+
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -37,9 +39,7 @@ const Pricing = () => {
       </Box>
       
       
-      <Container>
-        <Faq />
-      </Container>
+      
     </Box>
   );
 };

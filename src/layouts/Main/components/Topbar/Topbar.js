@@ -82,10 +82,10 @@ const Topbar = ({
             <Link
               underline="none"
               component="a"
-              href="/page-services"
+              href="#/"
               color="textPrimary"
             >
-              Cursos
+              Info
             </Link>
           </Box>
           <Box>
@@ -93,10 +93,10 @@ const Topbar = ({
               variant="contained"
               color="primary"
               component="a"
-              href="/page-pricing"
+              href="#/page-services"
               size="large"
             >
-              Inscribirse
+              Contact
             </Button>
           </Box>
         </Box>

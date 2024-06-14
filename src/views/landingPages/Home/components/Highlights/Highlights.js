@@ -12,9 +12,9 @@ const Highlights = () => {
       <Grid container spacing={2}>
         {[
           {
-            title: 'Clases interactivas',
+            title: 'Web Designer',
             subtitle:
-              'Clases en vivo con profesores y programadores profesionales, desarrolla tu propia idea con la guia de nuestros excelentes maestros.',
+              'With an early beginning using DreamWeaver, I now employ tools such as React, Next, and Angular to develop an excellent responsive FrontEnd.',
             icon: (
               <svg
                 height={24}
@@ -34,9 +34,9 @@ const Highlights = () => {
             ),
           },
           {
-            title: 'Elige tu plataforma',
+            title: 'Effective Leader',
             subtitle:
-              'Con nuestros cursos serás capaz de desarrollar para cualquier plataforma, ya sea web, movil o de escritorio.',
+              'I lead by action, not by word. I share all of my knowledge freely! I have led many successful development teams in the past.',
             icon: (
               <svg
                 height={24}
@@ -56,9 +56,9 @@ const Highlights = () => {
             ),
           },
           {
-            title: 'Tómatelo a tu propio ritmo',
+            title: 'Backend API Developer',
             subtitle:
-              'Nuestros cursos son 100% en linea, por lo que puedes tomarlos a tu propio ritmo, sin presiones ni horarios forzosos.',
+              'Whether in Springboot, Entity Framework, or even Django I can develop a responsive & RESTful API.',
             icon: (
               <svg
                 height={24}

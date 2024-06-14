@@ -4,7 +4,6 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import ToggleButton from '@mui/material/ToggleButton';
-import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Grid';
@@ -12,66 +11,66 @@ import CardActions from '@mui/material/CardActions';
 
 const pricing = [
   {
-    title: 'React',
+    title: 'Web Developer',
     price: {
-      annual: 12899,
-      monthly: 4499,
+      annual: 55,
+      monthly: 50,
     },
     features: [
       {
-        title: 'Aplicaciones web con React',
+        title: 'Front End UX/UI Implementation',
         isIncluded: true,
       },
       {
-        title: 'Grupo en Discord',
+        title: 'Back End RESTful API development',
         isIncluded: true,
       },
       {
-        title: 'Clases en vivo',
+        title: 'SQL Integration',
         isIncluded: true,
       },
       {
-        title: 'Certificado de finalización',
+        title: 'CI/CD usage for the project.',
         isIncluded: true,
       },
       {
-        title: 'Acceso a la comunidad',
+        title: 'Test, test, test.',
         isIncluded: true,
       },
     ],
     isHighlighted: true,
-    btnText: 'Inscríbete',
+    btnText: 'Hire',
   },
   {
-    title: 'Unity',
+    title: 'Game Developer',
     price: {
-      annual: 13899,
-      monthly: 4899,
+      annual: 50,
+      monthly: 40,
     },
     features: [
       {
-        title: 'Diseño de Videojuegos en Unity',
+        title: 'Asset Design',
         isIncluded: true,
       },
       {
-        title: 'Grupo en Discord',
+        title: 'Functionality coding',
         isIncluded: true,
       },
       {
-        title: 'Clases en vivo',
+        title: 'Performance improvement',
         isIncluded: true,
       },
       {
-        title: 'Certificado de finalización',
+        title: '3D Model Design',
         isIncluded: true,
       },
       {
-        title: 'Acceso a la comunidad',
+        title: 'Team Player',
         isIncluded: true,
       },
     ],
     isHighlighted: true,
-    btnText: 'Inscríbete',
+    btnText: 'Hire',
   },
 ];
 
@@ -87,7 +86,7 @@ const PricingCards = () => {
     <Box>
       <Box marginBottom={4}>
         <Typography variant={'h3'} align={'center'} fontWeight={700}>
-          Elige el plan adecuado para ti
+          Expected Salary
         </Typography>
       </Box>
       <Box marginBottom={4} display={'flex'} justifyContent={'center'}>
@@ -98,7 +97,7 @@ const PricingCards = () => {
               border: `1px solid ${theme.palette.primary.main}`,
             }}
           >
-            Mensual
+            Payroll Basis
           </ToggleButton>
           <ToggleButton value="annual" size={'small'}
             sx={{
@@ -106,7 +105,7 @@ const PricingCards = () => {
               border: `1px solid ${theme.palette.primary.main}`,
             }}
           >
-            Curso Completo
+            Per Contract
           </ToggleButton>
         </ToggleButtonGroup>
       </Box>
@@ -129,7 +128,7 @@ const PricingCards = () => {
                   </Box>
                 </Box>
                 <Typography variant="subtitle2" color="textSecondary" align="center">
-                  Por estudiante, por {pricingOption === 'annual' ? 'curso completo' : 'mes'}
+                  Salary {pricingOption === 'annual' ? 'per Contract' : 'at Payroll'} in USD/Hour
                 </Typography>
                 <Box mt={4}>
                   <Grid container spacing={1}>
@@ -148,16 +147,7 @@ const PricingCards = () => {
                 </Box>
               </CardContent>
               <CardActions>
-                <Button
-                  fullWidth
-                  variant={item.isHighlighted ? 'contained' : 'outlined'}
-                  sx={{
-                    backgroundColor: item.isHighlighted ? theme.palette.primary.main : 'transparent',
-                    color: item.isHighlighted ? theme.palette.common.white : theme.palette.primary.main,
-                  }}
-                >
-                  {item.btnText}
-                </Button>
+                
               </CardActions>
             </Card>
           </Grid>

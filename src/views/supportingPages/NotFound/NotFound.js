@@ -57,11 +57,11 @@ const NotFound = () => {
                 color="textSecondary"
                 align={isMd ? 'left' : 'center'}
               >
-                Oops! Esta pagina no existe.
+                Oops, my CV is no that larg!
                 <br />
-                Si crees que hubo un error{' '}
+                Maybe{' '}
                 <Link href={''} underline="none">
-                  contactanos.
+                go back?
                 </Link>
               </Typography>
               <Box

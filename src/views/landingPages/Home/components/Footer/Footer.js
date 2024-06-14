@@ -16,7 +16,7 @@ const Footer = () => {
         color={'textSecondary'}
         align={'center'}
       >
-        Entra ahora
+        CONTACT ME
       </Typography>
       <Box
         component={Typography}
@@ -25,7 +25,7 @@ const Footer = () => {
         gutterBottom
         align={'center'}
       >
-        Registrate a una clase de prueba
+        I'm available at
       </Box>
       <Typography
         variant={'h6'}
@@ -33,12 +33,12 @@ const Footer = () => {
         color={'textSecondary'}
         align={'center'}
       >
-        Tendras acceso a una clase de prueba totalmente gratis con el profesor que te enseñara en el curso.
+        LinkedIn, WhatsApp, iMessage, Github, Facebook, Instagram
       </Typography>
       <Box marginTop={3} display={'flex'} justifyContent={'center'}>
         <Button
           component={'a'}
-          href={'/'}
+          href={'#/page-services'}
           target={'_blank'}
           variant="contained"
           color="primary"
@@ -61,7 +61,7 @@ const Footer = () => {
             </svg>
           }
         >
-          Inscribete ahora
+          Contact
         </Button>
       </Box>
     </Box>

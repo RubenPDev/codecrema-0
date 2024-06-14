@@ -121,6 +121,8 @@ const PricingCompareTable = () => {
                       {pricing[0].features.indexOf(feature.id) !== -1 ? (
                         <Box
                           component={Avatar}
+                          to="/page-pricing"
+
                           bgcolor={theme.palette.secondary.main}
                           width={20}
                           height={20}

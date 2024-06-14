@@ -27,15 +27,14 @@ const Hero = () => {
                 fontWeight: 700,
               }}
             >
-              Aprende a crear tu propio videojuego o página web en 
+              Ruben Porcayo Espinoza 
               <br />
-              solo {' '}
               <Typography
                 color={'primary'}
                 component={'span'}
                 variant={'inherit'}
               >
-                tres meses.
+                Software Developer
               </Typography>
             </Typography>
           </Box>
@@ -46,7 +45,7 @@ const Hero = () => {
               color="textSecondary"
               sx={{ fontWeight: 400 }}
             >
-              La unica escuela en linea en la que aprendes de programadores "reales" y profesionales.
+              Web Developer & Game Designer!
             </Typography>
           </Box>
           <Box
@@ -62,7 +61,7 @@ const Hero = () => {
               size="large"
               fullWidth={isMd ? false : true}
             >
-              Inscribirse ahora
+              Pricing
             </Button>
             <Box
               marginTop={{ xs: 2, sm: 0 }}
@@ -77,7 +76,7 @@ const Hero = () => {
                 size="large"
                 fullWidth={isMd ? false : true}
               >
-                Ver Cursos
+                Contact
               </Button>
             </Box>
           </Box>
