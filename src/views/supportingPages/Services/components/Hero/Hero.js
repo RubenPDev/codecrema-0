@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 const Hero = () => {
   return (
     <Box>
-      <Box marginBottom={-10}>
+      <Box marginBottom={0}>
         <Typography
           sx={{
             textTransform: 'uppercase',
